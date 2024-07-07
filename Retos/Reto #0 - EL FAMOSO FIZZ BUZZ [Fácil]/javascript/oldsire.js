@@ -1,6 +1,9 @@
 
+
+let total = 100
+
 function fizzbuzz() {
-    for (let indice = 1; indice <= 100; indice++) {
+    for (let indice = 1; indice <= total; indice++) {
     
         if (indice % 3 === 0 && indice % 5 === 0){
             console.log("FizBuzz")
@@ -12,7 +15,7 @@ function fizzbuzz() {
             console.log("Buzz")
         }    
         else {
-            console.log("indice")
+            console.log(indice)
         }
     }
 }
