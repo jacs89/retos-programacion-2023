@@ -4,7 +4,7 @@ for (let indice = 1; indice <= 100; indice++) {
         console.log("FizBuzz")
     }
 
-    if (indice % 3 === 3){
+    if (indice % 3 === 0){
         console.log("Fizz")
     }
 
