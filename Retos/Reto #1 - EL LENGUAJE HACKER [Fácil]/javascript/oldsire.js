@@ -46,4 +46,4 @@ function traducir(palabra) {
 }
 
 //Llamada a la función
-traducir("hola mundo");
+traducir("Hola mundo");
